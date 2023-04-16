@@ -51,7 +51,7 @@ export const drawHand = (prediction, ctx) => {
                 ctx.arc(x,y, 5, 0, 3*Math.PI);
 
                 //set line color
-                ctx.fillStyle = "navy";
+                ctx.fillStyle = "black";
                 ctx.fill();
             }
         })
